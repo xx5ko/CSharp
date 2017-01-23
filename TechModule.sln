@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExactProductOfRealNumbers",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Transport\Transport.csproj", "{BA6FEB57-3815-41F8-AC96-84C067D671F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeIntegerNumbers", "PracticeIntegerNumbers\PracticeIntegerNumbers.csproj", "{B6ABC43F-F4C8-4A0F-B1ED-AC275CB1C6C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeFloatingPointNumbers", "PracticeFloatingPointNumbers\PracticeFloatingPointNumbers.csproj", "{75191F17-B7DF-4D8C-AAD2-C71B718581D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeVariableValues", "PracticeCharactersAndStrings\ExchangeVariableValues.csproj", "{1DD73B16-59BC-40E0-88C2-840281AB64DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,5 +43,17 @@ Global
 		{BA6FEB57-3815-41F8-AC96-84C067D671F6}.Debug|x86.Build.0 = Debug|x86
 		{BA6FEB57-3815-41F8-AC96-84C067D671F6}.Release|x86.ActiveCfg = Release|x86
 		{BA6FEB57-3815-41F8-AC96-84C067D671F6}.Release|x86.Build.0 = Release|x86
+		{B6ABC43F-F4C8-4A0F-B1ED-AC275CB1C6C4}.Debug|x86.ActiveCfg = Debug|x86
+		{B6ABC43F-F4C8-4A0F-B1ED-AC275CB1C6C4}.Debug|x86.Build.0 = Debug|x86
+		{B6ABC43F-F4C8-4A0F-B1ED-AC275CB1C6C4}.Release|x86.ActiveCfg = Release|x86
+		{B6ABC43F-F4C8-4A0F-B1ED-AC275CB1C6C4}.Release|x86.Build.0 = Release|x86
+		{75191F17-B7DF-4D8C-AAD2-C71B718581D2}.Debug|x86.ActiveCfg = Debug|x86
+		{75191F17-B7DF-4D8C-AAD2-C71B718581D2}.Debug|x86.Build.0 = Debug|x86
+		{75191F17-B7DF-4D8C-AAD2-C71B718581D2}.Release|x86.ActiveCfg = Release|x86
+		{75191F17-B7DF-4D8C-AAD2-C71B718581D2}.Release|x86.Build.0 = Release|x86
+		{1DD73B16-59BC-40E0-88C2-840281AB64DC}.Debug|x86.ActiveCfg = Debug|x86
+		{1DD73B16-59BC-40E0-88C2-840281AB64DC}.Debug|x86.Build.0 = Debug|x86
+		{1DD73B16-59BC-40E0-88C2-840281AB64DC}.Release|x86.ActiveCfg = Release|x86
+		{1DD73B16-59BC-40E0-88C2-840281AB64DC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
