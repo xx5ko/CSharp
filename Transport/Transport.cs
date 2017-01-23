@@ -6,7 +6,10 @@ namespace Transport
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			int n = int.Parse(Console.ReadLine());
+			int courses = (int)Math.Ceiling((double)n / (4 + 8 + 12));
+
+			Console.WriteLine(courses);
 		}
 	}
 }
