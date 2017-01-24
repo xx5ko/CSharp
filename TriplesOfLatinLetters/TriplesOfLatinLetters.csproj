@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{1DD73B16-59BC-40E0-88C2-840281AB64DC}</ProjectGuid>
+    <ProjectGuid>{74DF8A3F-5814-4C3B-958C-D473A1A7CC7E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PracticeCharactersAndStrings</RootNamespace>
-    <AssemblyName>PracticeCharactersAndStrings</AssemblyName>
+    <RootNamespace>TriplesOfLatinLetters</RootNamespace>
+    <AssemblyName>TriplesOfLatinLetters</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -34,8 +34,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Special Numbers.cs" />
-    <Compile Include="SpecialNumbers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
