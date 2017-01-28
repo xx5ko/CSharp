@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{1DD73B16-59BC-40E0-88C2-840281AB64DC}</ProjectGuid>
+    <ProjectGuid>{9B78BA88-7937-4D38-864C-DD559C1D2392}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PracticeCharactersAndStrings</RootNamespace>
-    <AssemblyName>PracticeCharactersAndStrings</AssemblyName>
+    <RootNamespace>DistanceOfTheStars</RootNamespace>
+    <AssemblyName>DistanceOfTheStars</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
