@@ -8,12 +8,12 @@ namespace Calculator
 		{
 
 			int a = int.Parse(Console.ReadLine());
-			char b = char.Parse(Console.ReadLine());
+			string b = Console.ReadLine();
 			int c = int.Parse(Console.ReadLine());
 
 
 
-			switch ("b")
+			switch (b)
 			{
 				case "*": Console.WriteLine(a + b + c + "=" + (a * c));
 				case "+": Console.WriteLine(a + b + c + "=" + (a + c));

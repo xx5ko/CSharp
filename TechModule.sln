@@ -53,6 +53,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingTriangle", "Printin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawAFilledSquare", "DrawAFilledSquare\DrawAFilledSquare.csproj", "{2C570B3E-36A6-40ED-A987-4D72601B0443}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateTriangleArea", "CalculateTriangleArea\CalculateTriangleArea.csproj", "{9BA19016-82E6-4D74-BADD-A4F74A3AF464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPower", "MathPower\MathPower.csproj", "{7F2B787F-5DCB-4206-B292-181C0775CCE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterOfTwoValues", "GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{642533AD-C836-45F5-8A89-E86DC95E1461}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -163,5 +169,17 @@ Global
 		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Debug|x86.Build.0 = Debug|x86
 		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Release|x86.ActiveCfg = Release|x86
 		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Release|x86.Build.0 = Release|x86
+		{9BA19016-82E6-4D74-BADD-A4F74A3AF464}.Debug|x86.ActiveCfg = Debug|x86
+		{9BA19016-82E6-4D74-BADD-A4F74A3AF464}.Debug|x86.Build.0 = Debug|x86
+		{9BA19016-82E6-4D74-BADD-A4F74A3AF464}.Release|x86.ActiveCfg = Release|x86
+		{9BA19016-82E6-4D74-BADD-A4F74A3AF464}.Release|x86.Build.0 = Release|x86
+		{7F2B787F-5DCB-4206-B292-181C0775CCE3}.Debug|x86.ActiveCfg = Debug|x86
+		{7F2B787F-5DCB-4206-B292-181C0775CCE3}.Debug|x86.Build.0 = Debug|x86
+		{7F2B787F-5DCB-4206-B292-181C0775CCE3}.Release|x86.ActiveCfg = Release|x86
+		{7F2B787F-5DCB-4206-B292-181C0775CCE3}.Release|x86.Build.0 = Release|x86
+		{642533AD-C836-45F5-8A89-E86DC95E1461}.Debug|x86.ActiveCfg = Debug|x86
+		{642533AD-C836-45F5-8A89-E86DC95E1461}.Debug|x86.Build.0 = Debug|x86
+		{642533AD-C836-45F5-8A89-E86DC95E1461}.Release|x86.ActiveCfg = Release|x86
+		{642533AD-C836-45F5-8A89-E86DC95E1461}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
