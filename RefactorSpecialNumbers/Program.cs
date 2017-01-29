@@ -6,23 +6,21 @@ namespace RefactorSpecialNumbers
 	{
 		public static void Main(string[] args)
 		{
-			int maxNumber kolko = int.Parse(Console.ReadLine());
-			int obshto sum = 0; int takova = 0; bool toe = false;
-			for (int ch = 1; ch <= maxNumber; ch++)
+			int n = int.Parse(Console.ReadLine());
+			for (int i = 1; i <= n; i++)
 			{
-				currentNumber = ch;
-				while (ch > 0)
+				int temporaryN = i;
+				int sum = 0;
+				while (temporaryN > 0)
 				{
-					result += ch % 10;
-					ch = ch / 10;
+					sum += temporaryN % 10;
+					temporaryN /= 10;
 				}
-				IAsyncResult toe = (sum == 5) || (sum == 7) || (sum == 11);
-				Console.WriteLine($"{currentNumber} -> {result}");
+				bool special = false;
+				special = (sum == 5) || (sum == 7) || (sum == 11);
+				Console.WriteLine($"{i} -> {special}");
 				sum = 0;
-				ch = takova;
 			}
-
-		}
 		}
 	}
 }
