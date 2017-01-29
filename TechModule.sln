@@ -43,6 +43,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableinHexadecimalFormat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsToWords", "DigitsToWords\DigitsToWords.csproj", "{9F0198D0-661C-49E5-A959-428DAA450EDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{8F947538-1B0E-4251-83E0-26F18A83EFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankReceipt", "BlankReceipt\BlankReceipt.csproj", "{080B8030-4212-4C39-9812-14BFDF890E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignOfIntegerNumber", "SignOfIntegerNumber\SignOfIntegerNumber.csproj", "{2FAEBA4D-9015-49F0-9D82-2E62CB44FD52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingTriangle", "PrintingTriangle\PrintingTriangle.csproj", "{C582B1FF-A90A-4472-874F-77573C8C9431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawAFilledSquare", "DrawAFilledSquare\DrawAFilledSquare.csproj", "{2C570B3E-36A6-40ED-A987-4D72601B0443}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -133,5 +143,25 @@ Global
 		{9F0198D0-661C-49E5-A959-428DAA450EDB}.Debug|x86.Build.0 = Debug|x86
 		{9F0198D0-661C-49E5-A959-428DAA450EDB}.Release|x86.ActiveCfg = Release|x86
 		{9F0198D0-661C-49E5-A959-428DAA450EDB}.Release|x86.Build.0 = Release|x86
+		{8F947538-1B0E-4251-83E0-26F18A83EFB7}.Debug|x86.ActiveCfg = Debug|x86
+		{8F947538-1B0E-4251-83E0-26F18A83EFB7}.Debug|x86.Build.0 = Debug|x86
+		{8F947538-1B0E-4251-83E0-26F18A83EFB7}.Release|x86.ActiveCfg = Release|x86
+		{8F947538-1B0E-4251-83E0-26F18A83EFB7}.Release|x86.Build.0 = Release|x86
+		{080B8030-4212-4C39-9812-14BFDF890E8E}.Debug|x86.ActiveCfg = Debug|x86
+		{080B8030-4212-4C39-9812-14BFDF890E8E}.Debug|x86.Build.0 = Debug|x86
+		{080B8030-4212-4C39-9812-14BFDF890E8E}.Release|x86.ActiveCfg = Release|x86
+		{080B8030-4212-4C39-9812-14BFDF890E8E}.Release|x86.Build.0 = Release|x86
+		{2FAEBA4D-9015-49F0-9D82-2E62CB44FD52}.Debug|x86.ActiveCfg = Debug|x86
+		{2FAEBA4D-9015-49F0-9D82-2E62CB44FD52}.Debug|x86.Build.0 = Debug|x86
+		{2FAEBA4D-9015-49F0-9D82-2E62CB44FD52}.Release|x86.ActiveCfg = Release|x86
+		{2FAEBA4D-9015-49F0-9D82-2E62CB44FD52}.Release|x86.Build.0 = Release|x86
+		{C582B1FF-A90A-4472-874F-77573C8C9431}.Debug|x86.ActiveCfg = Debug|x86
+		{C582B1FF-A90A-4472-874F-77573C8C9431}.Debug|x86.Build.0 = Debug|x86
+		{C582B1FF-A90A-4472-874F-77573C8C9431}.Release|x86.ActiveCfg = Release|x86
+		{C582B1FF-A90A-4472-874F-77573C8C9431}.Release|x86.Build.0 = Release|x86
+		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Debug|x86.ActiveCfg = Debug|x86
+		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Debug|x86.Build.0 = Debug|x86
+		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Release|x86.ActiveCfg = Release|x86
+		{2C570B3E-36A6-40ED-A987-4D72601B0443}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

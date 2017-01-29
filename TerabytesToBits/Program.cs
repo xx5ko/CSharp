@@ -7,12 +7,11 @@ namespace TerabytesToBits
 		public static void Main(string[] args)
 		{
 
-			decimal n = decimal.Parse(Console.ReadLine());
+			double n = double.Parse(Console.ReadLine());
 
-			n = n * 8796093022208;
+			ulong bytes = 8796093022208;
 
-
-			Console.WriteLine(n);
+			Console.WriteLine(n * bytes);
 		}
 	}
 }

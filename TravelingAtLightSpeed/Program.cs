@@ -20,7 +20,7 @@ namespace TravelingAtLightSpeed
 
 
 			// lightyeartoconvert
-			decimal Weeks = (speedLightForEarthYear * 52) * n;
+			decimal Weeks = (speedLightForEarthYear  52) * n;
 			decimal Days = speedLightForDays / lightYear;
 			decimal Hours = speedLightForHours / lightYear;
 		    decimal Minutes = Hours / lightYear;

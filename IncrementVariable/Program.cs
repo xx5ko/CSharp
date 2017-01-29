@@ -6,12 +6,18 @@ namespace IncrementVariable
 	{
 		public static void Main(string[] args)
 		{
-			byte b = 1;
+			long number = long.Parse(Console.ReadLine());
+			var bytex = 256;
 
-			b++;
-
-			b = b + 1;
-
+			if (number <= bytex)
+			{
+				Console.WriteLine(number);
+			}
+			else if (number > bytex)
+			{
+				Console.WriteLine(number % bytex);
+				Console.WriteLine("Overflowed {0} times", (number / bytex));
+			}
 		}
 	}
 }
