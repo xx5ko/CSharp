@@ -4,9 +4,17 @@ namespace MathPower
 {
 	class MainClass
 	{
-		public static void Main(string[] args)
+		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			double number = double.Parse(Console.ReadLine());
+			double energy = double.Parse(Console.ReadLine());
+			Console.WriteLine($"{MathPower(number, energy)}");
+		}
+
+		static double MathPower(double number, double energy)
+		{
+			double RaisedToPower = Math.Pow(number, energy);
+			return RaisedToPower;
 		}
 	}
 }

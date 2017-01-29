@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPower", "MathPower\Math
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreaterOfTwoValues", "GreaterOfTwoValues\GreaterOfTwoValues.csproj", "{642533AD-C836-45F5-8A89-E86DC95E1461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIString", "ASCIIString\ASCIIString.csproj", "{C4672275-158F-4C7D-88A6-417CF5A279D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -181,5 +183,9 @@ Global
 		{642533AD-C836-45F5-8A89-E86DC95E1461}.Debug|x86.Build.0 = Debug|x86
 		{642533AD-C836-45F5-8A89-E86DC95E1461}.Release|x86.ActiveCfg = Release|x86
 		{642533AD-C836-45F5-8A89-E86DC95E1461}.Release|x86.Build.0 = Release|x86
+		{C4672275-158F-4C7D-88A6-417CF5A279D2}.Debug|x86.ActiveCfg = Debug|x86
+		{C4672275-158F-4C7D-88A6-417CF5A279D2}.Debug|x86.Build.0 = Debug|x86
+		{C4672275-158F-4C7D-88A6-417CF5A279D2}.Release|x86.ActiveCfg = Release|x86
+		{C4672275-158F-4C7D-88A6-417CF5A279D2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

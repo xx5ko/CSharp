@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TravelingAtLightSpeed
+namespace ASCIIString
 {
 	class MainClass
 	{
@@ -9,5 +9,3 @@ namespace TravelingAtLightSpeed
 
 
 		}
-	}
-}

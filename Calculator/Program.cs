@@ -7,20 +7,64 @@ namespace Calculator
 		public static void Main(string[] args)
 		{
 
-			int a = int.Parse(Console.ReadLine());
-			string b = Console.ReadLine();
-			int c = int.Parse(Console.ReadLine());
+			int a;
+
+			int b;
+
+			string mathSymbol;
+
+			float result;
+
+
+			a = Convert.ToInt32(Console.ReadLine());
+
+			mathSymbol = Console.ReadLine();
+
+			b = Convert.ToInt32(Console.ReadLine());
 
 
 
-			switch (b)
+			switch (mathSymbol)
+
 			{
-				case "*": Console.WriteLine(a + b + c + "=" + (a * c));
-				case "+": Console.WriteLine(a + b + c + "=" + (a + c));
-				case "-": Console.WriteLine(a + b + c + "=" + (a - c));
-				case "/": Console.WriteLine(a / c);
+
+				case "-":
+
+					result = a - b;
+
+					break;
+
+				case "+":
+
+					result = a + b;
+
+					break;
+
+				case "/":
+
+					result = a / b;
+
+					break;
+
+				case "*":
+
+					result = a * b;
+
+					break;
+
+				default:
+
+					result = 0;
+
+					break;
+
 			}
+
+
+
+			Console.WriteLine(a.ToString() + " " + mathSymbol + " " + b.ToString() + " = " + result.ToString());
+
 		}
+
 	}
 }
-
