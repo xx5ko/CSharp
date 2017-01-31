@@ -6,9 +6,7 @@ namespace NthDigit
 	{
 		public static void Main(string[] args)
 		{
-			//
-
-
+			Console.WriteLine("Hello World!");
 		}
 	}
 }
