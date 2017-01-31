@@ -4,6 +4,9 @@ namespace MinMethod
 {
 	class MainClass
 	{
+
+	    // mинимално число
+
 		public static void Main(string[] args)
 		{
 			int a = int.Parse(Console.ReadLine());
