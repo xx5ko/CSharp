@@ -7,8 +7,8 @@ namespace MinMethod
 
 	    // mинимално число
 
-	    public static void Main(string[] args)
-	    {
+		public static void Main(string[] args)
+		{
 			int a = int.Parse(Console.ReadLine());
 			int b = int.Parse(Console.ReadLine());
 			int c = int.Parse(Console.ReadLine());
