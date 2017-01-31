@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\Hell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMethod", "MinMethod\MinMethod.csproj", "{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRepater", "StringRepater\StringRepater.csproj", "{1C0583E2-7524-4FEC-A706-CD56A153C8FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -205,5 +207,9 @@ Global
 		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Debug|x86.Build.0 = Debug|x86
 		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Release|x86.ActiveCfg = Release|x86
 		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Release|x86.Build.0 = Release|x86
+		{1C0583E2-7524-4FEC-A706-CD56A153C8FC}.Debug|x86.ActiveCfg = Debug|x86
+		{1C0583E2-7524-4FEC-A706-CD56A153C8FC}.Debug|x86.Build.0 = Debug|x86
+		{1C0583E2-7524-4FEC-A706-CD56A153C8FC}.Release|x86.ActiveCfg = Release|x86
+		{1C0583E2-7524-4FEC-A706-CD56A153C8FC}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
