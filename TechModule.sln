@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIString", "ASCIIString\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickyStrings", "TrickyStrings\TrickyStrings.csproj", "{9CE5B822-40AC-4770-A8EF-E62871A4D8D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloName", "HelloName\HelloName.csproj", "{077E90E4-3AB3-47FA-B6BE-ED9CE8775B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMethod", "MinMethod\MinMethod.csproj", "{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -193,5 +197,13 @@ Global
 		{9CE5B822-40AC-4770-A8EF-E62871A4D8D0}.Debug|x86.Build.0 = Debug|x86
 		{9CE5B822-40AC-4770-A8EF-E62871A4D8D0}.Release|x86.ActiveCfg = Release|x86
 		{9CE5B822-40AC-4770-A8EF-E62871A4D8D0}.Release|x86.Build.0 = Release|x86
+		{077E90E4-3AB3-47FA-B6BE-ED9CE8775B53}.Debug|x86.ActiveCfg = Debug|x86
+		{077E90E4-3AB3-47FA-B6BE-ED9CE8775B53}.Debug|x86.Build.0 = Debug|x86
+		{077E90E4-3AB3-47FA-B6BE-ED9CE8775B53}.Release|x86.ActiveCfg = Release|x86
+		{077E90E4-3AB3-47FA-B6BE-ED9CE8775B53}.Release|x86.Build.0 = Release|x86
+		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Debug|x86.ActiveCfg = Debug|x86
+		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Debug|x86.Build.0 = Debug|x86
+		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Release|x86.ActiveCfg = Release|x86
+		{C7D24BD4-15BC-4BDA-B69C-49C74347DD6E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
