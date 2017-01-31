@@ -7,9 +7,9 @@ namespace TravelingAtLightSpeed
 		public static void Main(string[] args)
 		{
 	        decimal lightYears = decimal.Parse(Console.ReadLine());
-	        decimal lightYearsToKilometers = 9450000000000M;
+	        decimal lightYearsToKM = 9450000000000M;
 	        decimal lightSpeed = 300000M;
-	        decimal total = (lightYearsToKilometers / lightSpeed) * lightYears;
+	        decimal total = (lightYearsToKM / lightSpeed) * lightYears;
 	        TimeSpan diff = TimeSpan.FromSeconds((double)total);
 
 	        var weeks = diff.Days / 7;
