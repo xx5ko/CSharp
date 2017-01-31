@@ -6,25 +6,23 @@ namespace TravelingAtLightSpeed
 	{
 		public static void Main(string[] args)
 		{
-			decimal lightYears = decimal.Parse(Console.ReadLine());
+	        decimal lightYears = decimal.Parse(Console.ReadLine());
+	        decimal lightYearsToKilometers = 9450000000000M;
+	        decimal lightSpeed = 300000M;
+	        decimal total = (lightYearsToKilometers / lightSpeed) * lightYears;
+	        TimeSpan diff = TimeSpan.FromSeconds((double)total);
 
-			decimal lightYearinKm = 9450000000000M;
-			decimal speedLight = 300000M;
+	        var weeks = diff.Days / 7;
+	        var days = diff.Days % 7;
+	        var hours = diff.Hours;
+	        var minutes = diff.Minutes;
+	        var seconds = diff.Seconds;
 
-			decimal total = (lightYearinKm / speedLight) * lightYears;
-
-
-			TimeSpan diff = TimeSpan.FromSeconds((double)total);
-			string formatted = string.Format(
-				  CultureInfo.CurrentCulture,
-				  "{0} weeks\n{1} days\n{2} hours\n{3} minutes\n{4} seconds\n",
-				  diff.Days / 7,
-				  diff.Days % 7,
-				  diff.Hours,
-				  diff.Minutes,
-				  diff.Seconds);
-
-			Console.WriteLine(formatted);
-		}
+	        Console.WriteLine($"{weeks} weeks");
+	        Console.WriteLine($"{days} days");
+	        Console.WriteLine($"{hours} hours");
+	        Console.WriteLine($"{minutes} minutes");
+	        Console.WriteLine($"{seconds} seconds");
+	    }
 	}
-}
+	}
