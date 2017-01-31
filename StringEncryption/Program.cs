@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO.IsolatedStorage;
 
 namespace StringEncryption
 {
@@ -8,14 +6,11 @@ namespace StringEncryption
     {
         public static void Main(string[] args)
         {
-
             var n = int.Parse(Console.ReadLine());
 
             var result = string.Empty;
 
-
-
-
+            Console.WriteLine(Encrypt(result));
 
             for (int i = 0; i < n; i++)
             {
@@ -27,26 +22,36 @@ namespace StringEncryption
 
             Console.WriteLine(result);
 
-
         }
 
         static string Encrypt(char currentChar)
         {
 
-            var asciiCode = (uint) currentChar;
+            var asciiCode = (int) currentChar;
 
-            var lastDigit = asciiCode % 10; // взима последна цифра на int
+            var firstDigit = GetFirstDigit(asciiCode);
+            var lastDigit = GetLastDigit(asciiCode);
+
+            var firstSymbol = (char)(asciiCode + lastDigit);
+            var lastSymbol = (char) (asciiCode - firstDigit);
+
+            var result = $"{firstSymbol}{firstDigit}{lastDigit}{lastSymbol}";
+            return result;
+        }
+
+        private static int GetLastDigit(int asciiCode)
+        {
+            return asciiCode % 10; // взима последна цифра на int
+        }
+
+        static int GetFirstDigit(int asciiCode)
+        {
             var firstDigit = asciiCode; // взима последна цифра на int
-            var result = $"{firstDigit}{lastDigit}";
             while (firstDigit >= 10)
             {
                 firstDigit /= 10;
             }
-
-            return lastDigit = V;
-
-            return asciiCode.ToString();
-
+            return firstDigit;
         }
     }
 }
