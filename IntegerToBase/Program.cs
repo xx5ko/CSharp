@@ -15,33 +15,22 @@ namespace IntegerToBase
             var converted = IntegerToBase(number, toBase);
 
             Console.WriteLine(converted);
-
         }
 
         static string IntegerToBase(int number, int toBase)
 
         {
-
             var result = string.Empty;
 
             while (number > 0)
-            {
-
-
+        {
                 var remainder = number % toBase;
 
                 result = remainder + result;
 
-                number /= number / toBase;
-
+                number /= toBase;
             }
-
             return result;
-
-
-
-
-
         }
     }
 }
