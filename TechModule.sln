@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringRepater", "StringRepa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NthDigit", "NthDigit\NthDigit.csproj", "{2ED171D1-4649-490A-916B-487840EADBB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToBase", "IntegerToBase\IntegerToBase.csproj", "{3270BB3E-DE89-40A2-9C08-4C9380257B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notifications", "Notifications\Notifications.csproj", "{8D6C3B39-7A0F-4FAE-8F12-74439524A7C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -217,5 +221,13 @@ Global
 		{2ED171D1-4649-490A-916B-487840EADBB6}.Debug|x86.Build.0 = Debug|x86
 		{2ED171D1-4649-490A-916B-487840EADBB6}.Release|x86.ActiveCfg = Release|x86
 		{2ED171D1-4649-490A-916B-487840EADBB6}.Release|x86.Build.0 = Release|x86
+		{3270BB3E-DE89-40A2-9C08-4C9380257B9B}.Debug|x86.ActiveCfg = Debug|x86
+		{3270BB3E-DE89-40A2-9C08-4C9380257B9B}.Debug|x86.Build.0 = Debug|x86
+		{3270BB3E-DE89-40A2-9C08-4C9380257B9B}.Release|x86.ActiveCfg = Release|x86
+		{3270BB3E-DE89-40A2-9C08-4C9380257B9B}.Release|x86.Build.0 = Release|x86
+		{8D6C3B39-7A0F-4FAE-8F12-74439524A7C4}.Debug|x86.ActiveCfg = Debug|x86
+		{8D6C3B39-7A0F-4FAE-8F12-74439524A7C4}.Debug|x86.Build.0 = Debug|x86
+		{8D6C3B39-7A0F-4FAE-8F12-74439524A7C4}.Release|x86.ActiveCfg = Release|x86
+		{8D6C3B39-7A0F-4FAE-8F12-74439524A7C4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

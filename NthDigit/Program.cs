@@ -1,36 +1,38 @@
 ﻿using System;
-using System.Globalization;
+using System.Collections.Generic;
 
-namespace Nth Digit
+namespace NthDigit
 {
-class MainClass
-{
-    public static void Main(string[] args)
+    internal class Program
     {
-
-        var number = long.Parse(Console.ReadLine());
-        var index = int.Parse(Console.ReadLine());
-
-        var digitAtIndex = FindDigit(number, index);
-        Console.WriteLine(digitAtIndex);
-
-    }
-
-    static int FindDigit(long number, int index)
-    {
-        var currentIndex = 1;
-        while (number > 0)
+        class NthDigit
         {
-            if (currentIndex == index)
+            public static void Main(string[] args)
             {
+                var number = long.Parse(Console.ReadLine());
+                var index = int.Parse(Console.ReadLine());
 
-                return (int)(number % 10);
+                var digitAtIndex = FindDigit(number, index);
+                Console.WriteLine(digitAtIndex);
+
             }
 
-            currentIndex++
-            number /= 10;
+            static int FindDigit(long number, int index)
+            {
+                var currentIndex = 1;
+                while (number > 0)
+                {
+                    if (currentIndex == index)
+                    {
+
+                        return (int) (number % 10);
+                    }
+
+                    currentIndex++
+                    number /= 10;
+                }
+                return (int) (number % 10);
+            }
         }
-        return (int)(number % 10);
     }
-}
 }
