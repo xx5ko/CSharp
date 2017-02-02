@@ -28,7 +28,7 @@ namespace NthDigit
                         return (int) (number % 10);
                     }
 
-                    currentIndex++
+                    currentIndex++;
                     number /= 10;
                 }
                 return (int) (number % 10);
