@@ -8,8 +8,8 @@ namespace RefactorSpecialNumbers
 	{
 		public static void Main(string[] args)
 		{
-			int n = int.Parse(Console.ReadLine());
-			for (int i = 1; i <= n; i++)
+			int num = int.Parse(Console.ReadLine());
+			for (int i = 1; i <= num; i++)
 			{
 				int temporaryN = i;
 				int sum = 0;
