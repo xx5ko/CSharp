@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace LargestElementinArray
 {
@@ -6,33 +7,19 @@ namespace LargestElementinArray
 	{
 		public static void Main(string[] args)
 		{
-			int get_largest(int array[], int size)
-{
-				int i, last_big = 0;
+			int n = int.Parse(Console.ReadLine());
+			int[] numbers = new int[n];
 
-				/* Get biggest number */
-				for (i = 0; i < size; i++)
-					if (array[i] > last_big) last_big = array[i];
+			var max = 0;
 
-				return last_big;
+			for (int i = 0; i < numbers.Length; i++)
+			{
+				int currentNumbers = int.Parse(Console.ReadLine());
+				numbers[i] = currentNumbers;
+				max = numbers.Max();
+
 			}
-
-			int main ()
-{
-				/* Used variables */
-				int array[5] = { 1, 6, 31, 8, 5 };
-				int elements = sizeof(array) / sizeof(int);
-
-				/* Get and print */
-				int largest = get_largest(array, elements);
-				printf("Largest element in the array: %d\n", largest);
-
-				int smallest = get_smallest(array, elements);
-				printf("Smallest element in the array: %d\n", smallest);
-
-				/* Thats all folks */
-				return 0;
-			}
+			Console.WriteLine(max);
 		}
 	}
 }
