@@ -7,12 +7,12 @@ namespace EqualSequenceOfElementsInArray
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("How many friends with same names do you have?");
+			Console.WriteLine("How numbers do you have?");
 			int len = int.Parse(Console.ReadLine());
 			string[] array = new string[len];
 			for (int i = 0; i < len; i++)
 			{
-				Console.WriteLine("Enter name:");
+				Console.WriteLine("Enter Numbers:");
 				array[i] = Console.ReadLine();
 			}
 			int count = 0;

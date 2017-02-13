@@ -97,9 +97,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualSequenceOfElementsInAr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountOfCapitalLettersinArray", "CountOfCapitalLettersinArray\CountOfCapitalLettersinArray.csproj", "{A198434B-3B38-407C-BF63-ABD4EA8A7C48}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "OddNumbersAtOddPositions", "OddNumbersAtOddPositions\OddNumbersAtOddPositions.csproj", "{465B50C5-150E-402F-8ACE-ADF6E461CF98}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraySymmetry", "ArraySymmetry\ArraySymmetry.csproj", "{E9D7199B-749D-42B8-897C-8A4B75A91F79}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "OddNumbersAtOddPositions", "OddNumbersAtOddPositions\OddNumbersAtOddPositions.csproj", "{E602C084-F27F-48D9-9FEA-99FFD2507632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrickyStringsDebugging", "TrickyStringsDebugging\TrickyStringsDebugging.csproj", "{686E72BA-B2A7-4127-9187-9338F8D0D604}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -299,13 +301,17 @@ Global
 		{A198434B-3B38-407C-BF63-ABD4EA8A7C48}.Debug|x86.Build.0 = Debug|x86
 		{A198434B-3B38-407C-BF63-ABD4EA8A7C48}.Release|x86.ActiveCfg = Release|x86
 		{A198434B-3B38-407C-BF63-ABD4EA8A7C48}.Release|x86.Build.0 = Release|x86
-		{465B50C5-150E-402F-8ACE-ADF6E461CF98}.Debug|x86.ActiveCfg = Debug|x86
-		{465B50C5-150E-402F-8ACE-ADF6E461CF98}.Debug|x86.Build.0 = Debug|x86
-		{465B50C5-150E-402F-8ACE-ADF6E461CF98}.Release|x86.ActiveCfg = Release|x86
-		{465B50C5-150E-402F-8ACE-ADF6E461CF98}.Release|x86.Build.0 = Release|x86
 		{E9D7199B-749D-42B8-897C-8A4B75A91F79}.Debug|x86.ActiveCfg = Debug|x86
 		{E9D7199B-749D-42B8-897C-8A4B75A91F79}.Debug|x86.Build.0 = Debug|x86
 		{E9D7199B-749D-42B8-897C-8A4B75A91F79}.Release|x86.ActiveCfg = Release|x86
 		{E9D7199B-749D-42B8-897C-8A4B75A91F79}.Release|x86.Build.0 = Release|x86
+		{E602C084-F27F-48D9-9FEA-99FFD2507632}.Debug|x86.ActiveCfg = Debug|x86
+		{E602C084-F27F-48D9-9FEA-99FFD2507632}.Debug|x86.Build.0 = Debug|x86
+		{E602C084-F27F-48D9-9FEA-99FFD2507632}.Release|x86.ActiveCfg = Release|x86
+		{E602C084-F27F-48D9-9FEA-99FFD2507632}.Release|x86.Build.0 = Release|x86
+		{686E72BA-B2A7-4127-9187-9338F8D0D604}.Debug|x86.ActiveCfg = Debug|x86
+		{686E72BA-B2A7-4127-9187-9338F8D0D604}.Debug|x86.Build.0 = Debug|x86
+		{686E72BA-B2A7-4127-9187-9338F8D0D604}.Release|x86.ActiveCfg = Release|x86
+		{686E72BA-B2A7-4127-9187-9338F8D0D604}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
