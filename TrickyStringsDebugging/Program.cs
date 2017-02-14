@@ -1,33 +1,28 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TrickyStringsDebugging
+class TrickyStrings
 {
-	class Program
+	static void Main(string[] args)
 	{
-		static void Main(string[] args)
+		var delimiter = Console.ReadLine();
+		var numberOfStrings = int.Parse(Console.ReadLine());
+
+		var result = string.Empty;
+
+		for (int i = 0; i < numberOfStrings; i++)
 		{
-			int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-			bool areaAllEqual = true;
-			for (int i = 0; i < numbers.Length - 1; i++)
+
+			var currentString = string.Empty;
+
+			currentString = Console.ReadLine();
+
+			if (i == numberOfStrings - 1)
 			{
-				if (numbers[i] != numbers[i + 1])
-				{
-					areaAllEqual = false;
-					break;
-				}
+				result += currentString;
+				break;
 			}
-			if (areaAllEqual)
-			{
-				Console.WriteLine("Yes");
-			}
-			else
-			{
-				Console.WriteLine("No");
-			}
+			result += currentString + delimiter;
 		}
+
+		Console.WriteLine(result);
 	}
 }

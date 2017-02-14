@@ -1,38 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace EqualSequenceOfElementsInArray
 {
-	class MainClass
+	class Program
 	{
-		public static void Main(string[] args)
+		static void Main(string[] args)
 		{
-			Console.WriteLine("How numbers do you have?");
-			int len = int.Parse(Console.ReadLine());
-			string[] array = new string[len];
-			for (int i = 0; i < len; i++)
+			int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+			bool areaAllEqual = true;
+			for (int i = 0; i < numbers.Length - 1; i++)
 			{
-				Console.WriteLine("Enter Numbers:");
-				array[i] = Console.ReadLine();
-			}
-			int count = 0;
-			int bestCount = 0;
-			for (int i = 1; i < len; i++)
-			{
-				if (array[i] == array[i - 1])
+				if (numbers[i] != numbers[i + 1])
 				{
-					count++;
-					if (count > bestCount)
-					{
-						bestCount = count;
-					}
-				}
-				else
-				{
-					count = 1;
+					areaAllEqual = false;
+					break;
 				}
 			}
-			Console.WriteLine(bestCount);
+			if (areaAllEqual)
+			{
+				Console.WriteLine("Yes");
+			}
+			else
+			{
+				Console.WriteLine("No");
+			}
 		}
 	}
 }
