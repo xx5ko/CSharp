@@ -125,9 +125,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TearListInHalf", "TearListI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackDownloader", "TrackDownloader\TrackDownloader.csproj", "{71E0E0F1-4780-4BBD-AC6D-A6CA3E02BB2C}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "OddNumbersAtOddPositions", "OddNumbersAtOddPositions\OddNumbersAtOddPositions.csproj", "{52C52847-BB6D-427C-9CBB-98B3FEA87943}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElementsOfOddPositions", "RemoveElementsOfOddPositions\RemoveElementsOfOddPositions.csproj", "{D24734FF-8CEA-4D77-90C7-728371D8E202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CamelsBack", "CamelsBack\CamelsBack.csproj", "{A7EC3C91-516E-4117-9397-912BA529C2CA}"
+EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "OddNumbersAtOddPositions", "OddNumbersAtOddPositions\OddNumbersAtOddPositions.csproj", "{26E49F43-E5D1-47C7-83AC-5B6B02B9193D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionList", "UnionList\UnionList.csproj", "{37E72C73-59CE-4CC9-A8B2-A491573CCE62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -383,13 +387,21 @@ Global
 		{71E0E0F1-4780-4BBD-AC6D-A6CA3E02BB2C}.Debug|x86.Build.0 = Debug|x86
 		{71E0E0F1-4780-4BBD-AC6D-A6CA3E02BB2C}.Release|x86.ActiveCfg = Release|x86
 		{71E0E0F1-4780-4BBD-AC6D-A6CA3E02BB2C}.Release|x86.Build.0 = Release|x86
-		{52C52847-BB6D-427C-9CBB-98B3FEA87943}.Debug|x86.ActiveCfg = Debug|x86
-		{52C52847-BB6D-427C-9CBB-98B3FEA87943}.Debug|x86.Build.0 = Debug|x86
-		{52C52847-BB6D-427C-9CBB-98B3FEA87943}.Release|x86.ActiveCfg = Release|x86
-		{52C52847-BB6D-427C-9CBB-98B3FEA87943}.Release|x86.Build.0 = Release|x86
 		{D24734FF-8CEA-4D77-90C7-728371D8E202}.Debug|x86.ActiveCfg = Debug|x86
 		{D24734FF-8CEA-4D77-90C7-728371D8E202}.Debug|x86.Build.0 = Debug|x86
 		{D24734FF-8CEA-4D77-90C7-728371D8E202}.Release|x86.ActiveCfg = Release|x86
 		{D24734FF-8CEA-4D77-90C7-728371D8E202}.Release|x86.Build.0 = Release|x86
+		{A7EC3C91-516E-4117-9397-912BA529C2CA}.Debug|x86.ActiveCfg = Debug|x86
+		{A7EC3C91-516E-4117-9397-912BA529C2CA}.Debug|x86.Build.0 = Debug|x86
+		{A7EC3C91-516E-4117-9397-912BA529C2CA}.Release|x86.ActiveCfg = Release|x86
+		{A7EC3C91-516E-4117-9397-912BA529C2CA}.Release|x86.Build.0 = Release|x86
+		{26E49F43-E5D1-47C7-83AC-5B6B02B9193D}.Debug|x86.ActiveCfg = Debug|x86
+		{26E49F43-E5D1-47C7-83AC-5B6B02B9193D}.Debug|x86.Build.0 = Debug|x86
+		{26E49F43-E5D1-47C7-83AC-5B6B02B9193D}.Release|x86.ActiveCfg = Release|x86
+		{26E49F43-E5D1-47C7-83AC-5B6B02B9193D}.Release|x86.Build.0 = Release|x86
+		{37E72C73-59CE-4CC9-A8B2-A491573CCE62}.Debug|x86.ActiveCfg = Debug|x86
+		{37E72C73-59CE-4CC9-A8B2-A491573CCE62}.Debug|x86.Build.0 = Debug|x86
+		{37E72C73-59CE-4CC9-A8B2-A491573CCE62}.Release|x86.ActiveCfg = Release|x86
+		{37E72C73-59CE-4CC9-A8B2-A491573CCE62}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

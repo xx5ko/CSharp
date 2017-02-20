@@ -35,9 +35,9 @@ namespace TrackDownloader
 				line = Console.ReadLine();
 			}
 
-				downloadedTracks.Sort();
+			downloadedTracks.Sort();
 
-				Console.WriteLine(string.Join(Environment.NewLine, downloadedTracks));
-			}
+			Console.WriteLine(string.Join(Environment.NewLine, downloadedTracks));
 		}
 	}
+}
