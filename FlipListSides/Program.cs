@@ -12,7 +12,6 @@ namespace FlipListSides
 		{
 			List<int> input = Console.ReadLine().Split().Select(int.Parse).ToList();
 
-
 			for (int i = 1; i < input.Count / 2; i++)
 			{
 				int temp = input[i];
